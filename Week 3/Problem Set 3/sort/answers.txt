@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Bubble Sort is one of the slowest sorting algorithms in a case of a random sorted list; However it sorts an already sorted list incredibly fast; Timing it makes it clear, since it took 6.185s to sort the random50000 list and 1.531s to sort the sorted50000 list;
+
+sort2 uses: Merge Sort
+
+How do you know?: Sorting of random50000 took 2.460s while sorting of sorted50000 took 1,052s; Merge Sort is a fast sorting algorithm that takes around the same amount of time whether the list is already sorted or not;
+
+sort3 uses: Selection Sort
+
+How do you know?: Sorting of random50000 took 3.907s and sorting of sorted50000 took 4,485s; Selection Sort is always a slow sorting algorithm whether the list is already sorted or not;
