@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updates</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Background elements -->
+    <div class="matrix-rain" id="matrixRain"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="particles" id="particles"></div>
+
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-computer"></i> Just a super-stylish webpage</h1>
+            <p class="subtitle">By yours truly: Giuseppe Tansella</p>
+
+            <div class="warning">
+                <strong><i class="fas fa-exclamation-triangle"></i> WARNING:</strong> You most probably will be blown away by the awesomeness of this website. Please proceed carefully! <i class="fa-regular fa-face-smile"></i>
+            </div>
+        </header>
+
+            <div class="panel">
+                <div class="tab">
+                    <button class="tab-button" onclick="location.href='index.html'"><i class="fas fa-house"></i> MAIN PAGE</button>
+                    <button class="tab-button active"><i class="fa-solid fa-pen-fancy"></i> UPDATES</button>
+                    <button class="tab-button" onclick="location.href='page3.html'"><i class="fas fa-search"></i> FUN FACTS</button>
+                    <button class="tab-button" onclick="location.href='page4.html'"><i class="fa-solid fa-images"></i> COOL BUTTONS</button>
+                </div>
+
+                <div class="tab-content active">
+                    <h2><i class="fa-solid fa-pen-fancy"></i> UPDATES</h2>
+                    <h3 style="margin-top: 40px; color: var(--neon-green);">ALRIGHT, SINCE I GUESS YOU WANNA SNOOP AROUND, HERE ARE SOME RANDOM UPDATES ABOUT ME IN NO PARTICULAR ORDER.</h3>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-laptop-code"></i> BEHIND THE SCENES IN CREATING THIS WEBSITE</h3>
+                    <ul style="padding-left:10px;">
+                    <li>Currently trying to battle procastination (Don't we all, in this day and age?)</li>
+                    <li>Also made this website so I can say I did something constructive this season</li>
+                    <li>It makes me wonder why everything on the Web isn't Neon stylized, like, look at this bro, it's just so beautiful</li>
+                    <li>Lemme check aaaaand, yup, I still find Web Development annoying</li>
+                    <li>Like c'mon bro, it's freaking 2025, there must be a better way to develop this sh**</li>
+                    <li>And don't get me started about having to use the damn HTML-CSS-JS trio instead of my darling PHP, surely has been a P L E A S U R E .</li>
+                    <li>On the other hand, did I really need to develop this website at this complexity? Probably not. Do I regret it? Absolutely not, lemme cook bro</li>
+                    </ul>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-laptop-code"></i> OTHER PASSIONS OF MINE</h3>
+                    <ul style="padding-left:10px;">
+                    <li>When my mind isn't focused being awesome at problem solving and coding, I also like to practice singing</li>
+                    <li>Currently wishing to find the time to properly learn to play musical instruments, like piano and/or guitar</li>
+                    <li>Linkin Park is my favourite band</li>
+                    <li>Currently wishing to find the time to properly learn the screaming technique</li>
+                    <li>I'm a proud 3DS owner</li>
+                    <li>Generally I prefer PC Gaming instead of Console gaming</li>
+                    <li>I enjoy movies and TV series</li>
+                    <li>Breaking Bad, Better Call Saul, and Dark are some of the best work of filming art ever produced</li>
+                    <li>I hate french. With a passion.</li>
+                    <li>I'm sure there's much more to write, but honestly I'd like to finish this course before January, so, yeah</li>
+                    </ul>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-laptop-code"></i> CHECKING FOR HATE AGAINST DATA STRUCTURES</h3>
+                    <ul style="padding-left:10px;">
+                    <li>Yup, I still hate Data Structures.</li>
+                    <li>Not Hashmaps though, they rulez</li>
+                    <li>Those Tree s**ts can go f*** themselves tbh</li>
+                    </ul>
+                    </div>
+
+                    <p>Alright, enough snooping around. There's more content in the other pages.</p>
+            </div>
+        </div>
+        <footer>
+            <p>Imagine scrolling, LMAO</p>
+            <p>You want cookies bro? Sorry, I don't have any. <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa-regular fa-face-smile-wink"></i></a></p>
+            <div class="glow-text">
+                <p>DESIGNED BY GIUSEPPE TANSELLA <span class="flag">🚩</span></p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Javascript part -->
+    <script>
+        // Create background particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 50;
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+
+                // Random size and position
+                const size = Math.random() * 4 + 1;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.left = `${Math.random() * 100}vw`;
+
+                // Random neon color
+                const colors = [
+                    'rgba(0, 243, 255, 0.8)',
+                    'rgba(157, 0, 255, 0.8)',
+                    'rgba(255, 0, 255, 0.8)',
+                    'rgba(0, 255, 157, 0.8)'
+                ];
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                particle.style.background = color;
+                particle.style.boxShadow = `0 0 ${size * 2}px ${color}`;
+
+                // Random animation duration and delay
+                const duration = Math.random() * 15 + 10;
+                const delay = Math.random() * 5;
+                particle.style.animation = `float ${duration}s linear infinite ${delay}s`;
+
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Create matrix rain effect
+        function createMatrixRain() {
+            const matrixContainer = document.getElementById('matrixRain');
+            const chars = '01';
+            const columns = Math.floor(window.innerWidth / 20);
+
+            for (let i = 0; i < columns; i++) {
+                const column = document.createElement('div');
+                column.style.position = 'absolute';
+                column.style.top = '-100px';
+                column.style.left = `${i * 20}px`;
+                column.style.width = '2px';
+                column.style.fontFamily = 'Share Tech Mono, monospace';
+                column.style.fontSize = '16px';
+                column.style.color = 'rgba(0, 255, 0, 0.3)';
+                column.style.textShadow = '0 0 5px rgba(0, 255, 0, 0.5)';
+                column.style.letterSpacing = '2px';
+                column.style.animation = `matrixDrop ${Math.random() * 5 + 3}s linear infinite`;
+                column.style.animationDelay = `${Math.random() * 5}s`;
+
+                matrixContainer.appendChild(column);
+
+                // Add characters to column
+                const charCount = Math.floor(Math.random() * 10) + 5;
+                let content = '';
+                for (let j = 0; j < charCount; j++) {
+                    content += chars[Math.floor(Math.random() * chars.length)] + '<br>';
+                }
+                column.innerHTML = content;
+            }
+        }
+
+        // Add CSS for matrix animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes matrixDrop {
+                0% {
+                    transform: translateY(-100px);
+                    opacity: 0;
+                }
+                5% { opacity: 1; }
+                95% { opacity: 1; }
+                100% {
+                    transform: translateY(100vh);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Save scroll position before leaving the page
+        window.addEventListener("beforeunload", () => {
+            localStorage.setItem("scrollPos", window.scrollY);
+        });
+
+        // Restore scroll position when entering page
+        window.addEventListener("load", () => {
+            const scrollPos = localStorage.getItem("scrollPos");
+            if (scrollPos !== null) {
+                window.scrollTo(0, parseInt(scrollPos));
+            }
+        });
+
+        // Initialize with some content
+        window.onload = function() {
+            // Create background effects
+            createParticles();
+            createMatrixRain();
+
+            // Add initial animation to panels
+            const panels = document.querySelectorAll('.panel');
+            panels.forEach((panel, index) => {
+                panel.style.opacity = '0';
+                panel.style.transform = 'translateY(50px) scale(0.95)';
+                setTimeout(() => {
+                    panel.style.transition = 'opacity 1s ease, transform 1s ease';
+                    panel.style.opacity = '1';
+                    panel.style.transform = 'translateY(0) scale(1)';
+                }, index * 300);
+            });
+
+            // Add glitch effect to title periodically
+            setInterval(() => {
+                if (Math.random() > 0.7) {
+                    const title = document.querySelector('h1');
+                    title.style.animation = 'none';
+                    setTimeout(() => {
+                        title.style.animation = 'textGlow 2s ease-in-out infinite alternate';
+                    }, 100);
+                }
+            }, 3000);
+        };
+    </script>
+</body>
+</html>

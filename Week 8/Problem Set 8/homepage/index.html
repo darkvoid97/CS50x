@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just a Super-Stylish Webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Background elements -->
+    <div class="matrix-rain" id="matrixRain"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="particles" id="particles"></div>
+
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-computer"></i> Just a super-stylish webpage</h1>
+            <p class="subtitle">By yours truly: Giuseppe Tansella</p>
+
+            <div class="warning">
+                <strong><i class="fas fa-exclamation-triangle"></i> WARNING:</strong> You most probably will be blown away by the awesomeness of this website. Please proceed carefully! <i class="fa-regular fa-face-smile"></i>
+            </div>
+        </header>
+
+            <div class="panel">
+                <div class="tab">
+                    <button class="tab-button active"><i class="fas fa-house"></i> MAIN PAGE</button>
+                    <button class="tab-button" onclick="location.href='page2.html'"><i class="fa-solid fa-pen-fancy"></i> UPDATES</button>
+                    <button class="tab-button" onclick="location.href='page3.html'"><i class="fas fa-search"></i> FUN FACTS</button>
+                    <button class="tab-button" onclick="location.href='page4.html'"><i class="fa-solid fa-images"></i> COOL BUTTONS</button>
+                </div>
+
+                <div class="tab-content active">
+                    <h2><i class="fas fa-house"></i> MAIN PAGE</h2>
+                    <h3 style="margin-top: 40px; color: var(--neon-red);">DID I MENTION I AM A COMPUTER ENGINEER???<br>THAT PROBABLY MEANS I'M A SUPERIOR BEING BY DEFAULT, RIGHT?????? <i class="fa-solid fa-laptop-code"></i></h3>
+                    <p>But enough about me...</p>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-question"></i> WHAT IS THIS?</h3>
+                    <p>This, dare I say <span style="color: var(--neon-yellow);">Masterpiece</span> is a little website that I created for the <code>Harvard's CS50x Problem Set 8</code></p>
+                    <div class="explanation">
+                        <strong>WHAT'S CS50X:</strong> It's CS50’s Introduction to Computer Science, from the Harvard University. If you want more information, just google it bruh!
+                    </div>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-question"></i> HOW DID YOU DO IT?</h3>
+                    <p>Skills.<br>Both innately and acquired.<br>Innately because, OBVIOUSLY, I am a Computer Engineer. Acquired because, well, same reason. I already did the work. Nothing more, nothing less.</p>
+                    <div class="explanation">
+                        <strong>SIDE NOTE:</strong> If you need "Vibe coding" for this, you have a very serious skill issue.
+                    </div>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-question"></i> WHY DOING IT?</h3>
+                    <p>Just because I could. Speaking of which, have a nice button:</p>
+                    <button type="button" class="btn btn-outline-light" onclick="buttonAlert()">CLICK ME!</button>
+                    <div class="explanation">
+                        <strong>ABOUT THE BUTTON:</strong> The problem set asked for me to use Javascript and some Bootstrap thingy in some way, so, there. I totally don't hate JS, at all. Totally.
+                    </div>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-question"></i> WHY ARE YOU ANSWERING THESE QUESTIONS IN THE MAIN PAGE?</h3>
+                    <p>Honestly, the content inside the page is not relevant for the purpose of the problem set.<br>Also, I needed enough things to fill the page so that scrolling it would be possible.</p>
+                    <div class="explanation">
+                        <strong>CHECK THE SCROLL BAR:</strong> It's a beaut, isn't it? If you're on mobile, you're missing out bro
+                    </div>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-question"></i> COULDN'T YOU USE PHP TO DO IT?</h3>
+                    <p>No.<br>Well, I mean, yes I damn wish, but, <span style="color: var(--neon-red);">No</span>.</p>
+                    <div class="explanation">
+                        <strong>WHAT IS PHP:</strong> Basically the thing that allows for me to not completely hate Web Development with all my living being. <i class="fa-regular fa-thumbs-up"></i>
+                    </div>
+                    </div>
+                    <p>Okay, this is enough content for this page. If you wanna see more (Why?) you can check the other pages.</p>
+            </div>
+        </div>
+        <footer>
+            <p>Imagine scrolling, LMAO</p>
+            <p>You want cookies bro? Sorry, I don't have any. <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa-regular fa-face-smile-wink"></i></a></p>
+            <div class="glow-text">
+                <p>DESIGNED BY GIUSEPPE TANSELLA <span class="flag">🚩</span></p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Javascript part -->
+    <script>
+        // Alert when clicking the Button in the Main page
+        function buttonAlert() {
+            alert("Heyo bro you did it, congratulations! You know how to click on things! Keep up the grindin', ya king!");
+        }
+        // Create background particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 50;
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+
+                // Random size and position
+                const size = Math.random() * 4 + 1;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.left = `${Math.random() * 100}vw`;
+
+                // Random neon color
+                const colors = [
+                    'rgba(0, 243, 255, 0.8)',
+                    'rgba(157, 0, 255, 0.8)',
+                    'rgba(255, 0, 255, 0.8)',
+                    'rgba(0, 255, 157, 0.8)'
+                ];
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                particle.style.background = color;
+                particle.style.boxShadow = `0 0 ${size * 2}px ${color}`;
+
+                // Random animation duration and delay
+                const duration = Math.random() * 15 + 10;
+                const delay = Math.random() * 5;
+                particle.style.animation = `float ${duration}s linear infinite ${delay}s`;
+
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Create matrix rain effect
+        function createMatrixRain() {
+            const matrixContainer = document.getElementById('matrixRain');
+            const chars = '01';
+            const columns = Math.floor(window.innerWidth / 20);
+
+            for (let i = 0; i < columns; i++) {
+                const column = document.createElement('div');
+                column.style.position = 'absolute';
+                column.style.top = '-100px';
+                column.style.left = `${i * 20}px`;
+                column.style.width = '2px';
+                column.style.fontFamily = 'Share Tech Mono, monospace';
+                column.style.fontSize = '16px';
+                column.style.color = 'rgba(0, 255, 0, 0.3)';
+                column.style.textShadow = '0 0 5px rgba(0, 255, 0, 0.5)';
+                column.style.letterSpacing = '2px';
+                column.style.animation = `matrixDrop ${Math.random() * 5 + 3}s linear infinite`;
+                column.style.animationDelay = `${Math.random() * 5}s`;
+
+                matrixContainer.appendChild(column);
+
+                // Add characters to column
+                const charCount = Math.floor(Math.random() * 10) + 5;
+                let content = '';
+                for (let j = 0; j < charCount; j++) {
+                    content += chars[Math.floor(Math.random() * chars.length)] + '<br>';
+                }
+                column.innerHTML = content;
+            }
+        }
+
+        // Add CSS for matrix animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes matrixDrop {
+                0% {
+                    transform: translateY(-100px);
+                    opacity: 0;
+                }
+                5% { opacity: 1; }
+                95% { opacity: 1; }
+                100% {
+                    transform: translateY(100vh);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Save scroll position before leaving the page
+        window.addEventListener("beforeunload", () => {
+            localStorage.setItem("scrollPos", window.scrollY);
+        });
+
+        // Restore scroll position when entering page
+        window.addEventListener("load", () => {
+            const scrollPos = localStorage.getItem("scrollPos");
+            if (scrollPos !== null) {
+                window.scrollTo(0, parseInt(scrollPos));
+            }
+        });
+
+        // Initialize with some content
+        window.onload = function() {
+            // Set up example injections
+
+            // Create background effects
+            createParticles();
+            createMatrixRain();
+
+            // Add initial animation to panels
+            const panels = document.querySelectorAll('.panel');
+            panels.forEach((panel, index) => {
+                panel.style.opacity = '0';
+                panel.style.transform = 'translateY(50px) scale(0.95)';
+                setTimeout(() => {
+                    panel.style.transition = 'opacity 1s ease, transform 1s ease';
+                    panel.style.opacity = '1';
+                    panel.style.transform = 'translateY(0) scale(1)';
+                }, index * 300);
+            });
+
+            // Add glitch effect to title periodically
+            setInterval(() => {
+                if (Math.random() > 0.7) {
+                    const title = document.querySelector('h1');
+                    title.style.animation = 'none';
+                    setTimeout(() => {
+                        title.style.animation = 'textGlow 2s ease-in-out infinite alternate';
+                    }, 100);
+                }
+            }, 3000);
+        };
+    </script>
+</body>
+</html>

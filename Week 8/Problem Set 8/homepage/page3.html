@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Facts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Background elements -->
+    <div class="matrix-rain" id="matrixRain"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="particles" id="particles"></div>
+
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-computer"></i> Just a super-stylish webpage</h1>
+            <p class="subtitle">By yours truly: Giuseppe Tansella</p>
+
+            <div class="warning">
+                <strong><i class="fas fa-exclamation-triangle"></i> WARNING:</strong> You most probably will be blown away by the awesomeness of this website. Please proceed carefully! <i class="fa-regular fa-face-smile"></i>
+            </div>
+        </header>
+
+            <div class="panel">
+                <div class="tab">
+                    <button class="tab-button" onclick="location.href='index.html'"><i class="fas fa-house"></i> MAIN PAGE</button>
+                    <button class="tab-button" onclick="location.href='page2.html'"><i class="fa-solid fa-pen-fancy"></i></i> UPDATES</button>
+                    <button class="tab-button active"><i class="fas fa-search"></i> FUN FACTS</button>
+                    <button class="tab-button" onclick="location.href='page4.html'"><i class="fa-solid fa-images"></i> COOL BUTTONS</button>
+                </div>
+
+                <div class="tab-content active">
+                    <h2><i class="fas fa-search"></i> FUN FACTS</h2>
+                    <h3 style="margin-top: 40px; color: var(--neon-yellow);">YOU'LL FIND RANDOM FUN FACTS UNDER HERE. ENJOY!</h3>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-gamepad"></i> MY TOP 5 POKéMON</h3>
+                    <ul style="padding-left:10px;">
+                    <li>Gardevoir</li>
+                    <li>Vaporeon</li>
+                    <li>Lopunny</li>
+                    <li>Machamp</li>
+                    <li>Max Verstappen</li>
+                    </ul>
+                    <div class="explanation">
+                    I will not be answering any questions about this one.
+                    </div>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-code"></i> MY TOP 5 PROGRAMMING/SCRIPTING/GENERAL PURPOSE LANGUAGES</h3>
+                    <ul style="padding-left:10px;">
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>PHP</li>
+                    <li>C</li>
+                    </ul>
+                    <div class="explanation">
+                    You cannot stahp the <strong>snaaaaaaake</strong> <i class="fa-brands fa-python"></i>
+                    </div>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-exclamation"></i> DID YOU KNOW...</h3>
+                    <ul style="padding-left:10px;">
+                    <li>The Sims 3 is waaaaay better than The Sims 4 overall. Seriously, if they made a goddamn TS3 Remaster I could reach both Valhalla and Nirvana at the same time</li>
+                    <li>Of all the Cybersecurity attacks I have experienced so far, SQL Injection is my favourite</li>
+                    <li>4 8 15 16 23 42</li>
+                    <li>The AI bubble cannot burst soon enough</li>
+                    <li>Last Christmas I gave you my heart, but the very next day you gave it away; this year, to save me from tears, I'll give it to someone special</li>
+                    </ul>
+                    <div class="explanation">
+                    That last fact counts for the Whamageddon, sorry not sorry bi**heeez I didn't make the rules (I totally did)
+                    </div>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-microchip"></i> TECH RELATED</h3>
+                    <ul style="padding-left:10px;">
+                    <li>The first computer “bug” was an actual moth trapped in a machine in 1947</li>
+                    <li>The QWERTY keyboard layout was designed to slow down typists to prevent typewriter jams</li>
+                    <li>More people own a mobile phone than a toothbrush</li>
+                    <li>Email existed before the World Wide Web</li>
+                    <li>The first webcam was used to monitor a coffee pot</li>
+                    </ul>
+                    <div class="explanation">
+                    Gotta be honest, I couldn't be bothered to think of other random (and basically useless) fun facts, so I just used an LLM to get some others. The result is these ones and those that follow. K thx bye
+                    </div>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-rocket"></i> SPACE RELATED</h3>
+                    <ul style="padding-left:10px;">
+                    <li>There are more stars in the universe than grains of sand on Earth</li>
+                    <li>Saturn could float in water because it’s less dense than water</li>
+                    <li>In space, astronauts grow about 2 inches taller due to lower gravity</li>
+                    <li>One day on Venus is longer than an entire Venus year</li>
+                    <li>Jupiter’s Great Red Spot is a storm that has been raging for centuries</li>
+                    </ul>
+                    <div class="explanation">
+                    I'll bet Elon Musk himself wouldn't even know this sh**
+                    </div>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-robot"></i> AI RELATED</h3>
+                    <ul style="padding-left:10px;">
+                    <li>The concept of artificial beings goes back over 2000 years: ancient Greek myths described mechanical servants built by the god Hephaestus</li>
+                    <li>The term “artificial intelligence” was coined in 1956 at a summer workshop at Dartmouth College</li>
+                    <li>Early AI programs could already play checkers better than many humans by the late 1950s</li>
+                    <li>AI isn’t all digital: researchers once built an AI system using slime mold, which naturally solves mazes and optimizes networks</li>
+                    <li>Some AI systems can recognize emotions from voice or facial expressions with surprising accuracy, even subtle ones humans often miss</li>
+                    </ul>
+                    <div class="explanation">
+                    This is basically AI giving itself a medal complimentary with a massive head
+                    </div>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-music"></i> MUSIC RELATED</h3>
+                    <ul style="padding-left:10px;">
+                    <li>Your heartbeat can sync with the tempo of the music you’re listening to</li>
+                    <li>Music can boost plant growth, some plants respond better to classical music than to silence</li>
+                    <li>The “Happy Birthday” song was once under copyright, meaning it couldn’t legally be used in movies without paying a fee</li>
+                    <li>The loudest band in the world, according to Guinness World Records, was Manowar at 139 decibels, that's as loud as a jet engine</li>
+                    <li>Humming is impossible while holding your nose closed (try it!)</li>
+                    </ul>
+                    <div class="explanation">
+                    I honestly can't tell if the last one is just the AI trying to troll me, or it's just true up to a point
+                    </div>
+                    </div>
+
+                    <div class="hint-box">
+                    <h3><i class="fa-solid fa-dog"></i> ANIMALS RELATED</h3>
+                    <ul style="padding-left:10px;">
+                    <li>Some dogs can detect medical conditions like low blood sugar, seizures, or even certain cancers through scent</li>
+                    <li>Cats purr not only when happy but also when scared, in pain, or healing: purring vibrations can promote bone repair</li>
+                    <li>Cows have best friends and get stressed when separated</li>
+                    <li>Octopuses have three hearts and can taste with their arms</li>
+                    <li>Penguins give their mate a special pebble as a "gift"</li>
+                    </ul>
+                    <div class="explanation">
+                    My doggo cures mah depression bruh
+                    </div>
+                    </div>
+
+                    <p>The yapping went on for long enough I think. There's more content on the other pages.</p>
+            </div>
+        </div>
+        <footer>
+            <p>Imagine scrolling, LMAO</p>
+            <p>You want cookies bro? Sorry, I don't have any. <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fa-regular fa-face-smile-wink"></i></a></p>
+            <div class="glow-text">
+                <p>DESIGNED BY GIUSEPPE TANSELLA <span class="flag">🚩</span></p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Javascript part -->
+    <script>
+        // Create background particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 50;
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+
+                // Random size and position
+                const size = Math.random() * 4 + 1;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.left = `${Math.random() * 100}vw`;
+
+                // Random neon color
+                const colors = [
+                    'rgba(0, 243, 255, 0.8)',
+                    'rgba(157, 0, 255, 0.8)',
+                    'rgba(255, 0, 255, 0.8)',
+                    'rgba(0, 255, 157, 0.8)'
+                ];
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                particle.style.background = color;
+                particle.style.boxShadow = `0 0 ${size * 2}px ${color}`;
+
+                // Random animation duration and delay
+                const duration = Math.random() * 15 + 10;
+                const delay = Math.random() * 5;
+                particle.style.animation = `float ${duration}s linear infinite ${delay}s`;
+
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Create matrix rain effect
+        function createMatrixRain() {
+            const matrixContainer = document.getElementById('matrixRain');
+            const chars = '01';
+            const columns = Math.floor(window.innerWidth / 20);
+
+            for (let i = 0; i < columns; i++) {
+                const column = document.createElement('div');
+                column.style.position = 'absolute';
+                column.style.top = '-100px';
+                column.style.left = `${i * 20}px`;
+                column.style.width = '2px';
+                column.style.fontFamily = 'Share Tech Mono, monospace';
+                column.style.fontSize = '16px';
+                column.style.color = 'rgba(0, 255, 0, 0.3)';
+                column.style.textShadow = '0 0 5px rgba(0, 255, 0, 0.5)';
+                column.style.letterSpacing = '2px';
+                column.style.animation = `matrixDrop ${Math.random() * 5 + 3}s linear infinite`;
+                column.style.animationDelay = `${Math.random() * 5}s`;
+
+                matrixContainer.appendChild(column);
+
+                // Add characters to column
+                const charCount = Math.floor(Math.random() * 10) + 5;
+                let content = '';
+                for (let j = 0; j < charCount; j++) {
+                    content += chars[Math.floor(Math.random() * chars.length)] + '<br>';
+                }
+                column.innerHTML = content;
+            }
+        }
+
+        // Add CSS for matrix animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes matrixDrop {
+                0% {
+                    transform: translateY(-100px);
+                    opacity: 0;
+                }
+                5% { opacity: 1; }
+                95% { opacity: 1; }
+                100% {
+                    transform: translateY(100vh);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Save scroll position before leaving the page
+        window.addEventListener("beforeunload", () => {
+            localStorage.setItem("scrollPos", window.scrollY);
+        });
+
+        // Restore scroll position when entering page
+        window.addEventListener("load", () => {
+            const scrollPos = localStorage.getItem("scrollPos");
+            if (scrollPos !== null) {
+                window.scrollTo(0, parseInt(scrollPos));
+            }
+        });
+
+        // Initialize with some content
+        window.onload = function() {
+            // Create background effects
+            createParticles();
+            createMatrixRain();
+
+            // Add initial animation to panels
+            const panels = document.querySelectorAll('.panel');
+            panels.forEach((panel, index) => {
+                panel.style.opacity = '0';
+                panel.style.transform = 'translateY(50px) scale(0.95)';
+                setTimeout(() => {
+                    panel.style.transition = 'opacity 1s ease, transform 1s ease';
+                    panel.style.opacity = '1';
+                    panel.style.transform = 'translateY(0) scale(1)';
+                }, index * 300);
+            });
+
+            // Add glitch effect to title periodically
+            setInterval(() => {
+                if (Math.random() > 0.7) {
+                    const title = document.querySelector('h1');
+                    title.style.animation = 'none';
+                    setTimeout(() => {
+                        title.style.animation = 'textGlow 2s ease-in-out infinite alternate';
+                    }, 100);
+                }
+            }, 3000);
+        };
+    </script>
+</body>
+</html>
