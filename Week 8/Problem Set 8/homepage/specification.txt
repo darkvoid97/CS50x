@@ -1,0 +1,33 @@
+HTML tags:
+<html>
+<head>
+<meta>
+<title>
+<link>
+<script>
+<body>
+<div>
+<header>
+<h1>
+<i>
+<a>
+<footer>
+<strong>
+<button>
+<h2>
+<h3>
+<p>
+<br>
+<span>
+
+CSS properties:
+font-family
+backgroud
+color
+line-height
+min-height
+background-image
+margin
+padding
+
+I used JavaScript for A LOT of animation things on the background, as well as some little button-alert logic with little help from Bootstrap as well.
