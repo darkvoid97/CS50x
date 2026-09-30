@@ -13,7 +13,7 @@
 
 - The course's content is divided in 10 weeks, each composed of a [Lecture](https://cs50.harvard.edu/x/syllabus/#lectures), a [Problem Set](https://cs50.harvard.edu/x/syllabus/#problem-sets), and optionally, [Additional Practices](https://cs50.harvard.edu/x/practice/).
 
-- This repository contains my own solutions for the Problem Sets and Additional Practices (almost all of them, work in progress) organized by week. The [Final Project](https://cs50.harvard.edu/x/project/) will be in a [separate repository](https://github.com/darkvoid97).
+- This repository contains my own solutions for the Problem Sets and Additional Practices (almost all of them, work in progress) organized by week. The [Final Project](https://cs50.harvard.edu/x/project/) is in a [separate repository](https://github.com/darkvoid97/blackout-checker).
 
 <br><hr>
 
