@@ -49,7 +49,7 @@
 <br><hr>
 
 ### [Final Project](https://cs50.harvard.edu/x/project/)
-- [**TODO**](https://github.com/darkvoid97).
+- [**Blackout Checker**](https://github.com/darkvoid97/blackout-checker): A smart blackout detection device and web app that monitors domestic power grids, alerts users during failures, and securely tracks outage history, featuring an ESP32-based hardware device for local alerts and a PHP/Java web application for secure tracking.
 
 <br><hr>
 
